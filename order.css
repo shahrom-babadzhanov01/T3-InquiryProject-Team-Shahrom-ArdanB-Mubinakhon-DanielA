@@ -1,0 +1,14 @@
+.continue-shopping
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.checkout-total
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
