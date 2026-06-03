@@ -26,3 +26,8 @@ header{
   width:100%;
   border-radius:10px;
 }
+.categories{
+    display:flex;
+    justify-content:space-between;
+    flex:1;
+}
