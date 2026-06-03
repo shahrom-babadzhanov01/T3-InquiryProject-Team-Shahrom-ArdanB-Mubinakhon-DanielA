@@ -2,7 +2,13 @@ body{
   background:#f8f2ea;
   font-family:Poppins,sans-serif;
 }
-
+.plate{
+  width:100vw;
+  height:50vh;
+  display:flex;
+  flex: 1;
+  margin-bottom: 20px;
+}
 header{
   display:flex;
   justify-content:space-between;
@@ -11,23 +17,40 @@ header{
 
 .products{
   display:flex;
- 
   gap:20px;
 }
 
 .card{
   background:white;
-  border-radius:15px;
+  width: 15vw;
+  border:15px;
   padding:15px;
-  box-shadow:0 4px 10px rgba(0,0,0,.1);
+  height: 30%;
 }
 
 .card img{
-  width:100%;
+  width:90%;
   border-radius:10px;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
 }
 .categories{
     display:flex;
-    justify-content:space-between;
+    justify-content: space-around;
     flex:1;
+}
+
+.sunday{
+ margin-left: 15vw;
+ margin-right: 15vw;
+ 
+}
+
+.plate img{
+
+}
+
+.bread section{
+
 }
