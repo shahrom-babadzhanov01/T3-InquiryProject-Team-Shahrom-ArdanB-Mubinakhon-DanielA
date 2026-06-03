@@ -1,0 +1,28 @@
+body{
+  background:#f8f2ea;
+  font-family:Poppins,sans-serif;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.products{
+  display:flex;
+ 
+  gap:20px;
+}
+
+.card{
+  background:white;
+  border-radius:15px;
+  padding:15px;
+  box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.card img{
+  width:100%;
+  border-radius:10px;
+}
