@@ -59,7 +59,7 @@
 
 .Cart-holder{
   display: flex;
-  justify-content: flex-start;  
+  justify-content: flex-start; 
   flex-direction: row;
 }
 
@@ -68,4 +68,9 @@
     justify-self: center;
     align-items: center;
     padding: 50px;
+}
+
+.price-container{
+    display: flex;
+    justify-content: flex-end;
 }
