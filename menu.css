@@ -1,0 +1,100 @@
+body{
+  background:#f8f2ea;
+  font-family:Poppins,sans-serif;
+ background-color:antiquewhite
+}
+.plate{
+  width:100vw;
+  height:50vh;
+  display:flex;
+  margin-bottom: 20px;
+}
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.products{
+  display:flex;
+  width:100vw;
+  height: 65vh;
+  flex-direction:column;
+}
+.categories{
+    display:flex;
+    justify-content: space-around;
+    flex:1;
+}
+
+#menu-text{
+  display: flex;
+  justify-content: center;
+}
+.bread-plate{
+  display: flex;
+  margin-left: 25%;
+  width:50vw;
+  height:35vh;
+  margin-bottom: 20px;
+}
+.card1{
+  width: 300px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.card1 img{
+  width: 100%;
+  height: 200px;
+  object-fit:cover;
+}
+.bread-products{
+  display:flex;
+  gap:20px;
+  justify-content: space-around;
+  width:100%;
+  background-color:antiquewhite;
+}
+.wrapper{
+  display: flex;
+  align-items: flex-start;
+  gap:40px;
+}
+.header-style {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lavenderblush;
+}
+#logo{
+  display:flex;
+  height: 100%;
+  justify-content:center;
+  align-items: center;
+}
+.nav-style{
+  width:50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-rightside-style{
+  width:25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  border-radius: 50%;
+}
+.footer-style{
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: lavenderblush;
+}
+
