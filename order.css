@@ -11,6 +11,8 @@
     display: flex;
     justify-content: center;
     justify-content: space-between;
+
+
 }
 
 .header-stlye{
@@ -53,4 +55,17 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: lavenderblush;
+}
+
+.Cart-holder{
+  display: flex;
+  justify-content: flex-start;  
+  flex-direction: row;
+}
+
+.button-container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 50px;
 }
